@@ -1,7 +1,7 @@
 # Configure the Azure Active Directory Provider
 provider "azuread" {}
 
-# Retrieve domain information
+# Retrieve domain info
 data "azuread_domains" "default" {
   only_initial = true
 }
